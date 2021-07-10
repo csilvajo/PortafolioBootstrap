@@ -15,8 +15,7 @@
     <meta name="Revisit-after" content="7 days" /><!--El tiempo para que los robots revisiten mi web-->
     <link rel="icon" href="img/pc.ico" type="image/x-icon" /><!--Favicon-->
 
-    <link rel="stylesheet" href="dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
     <script src="https://kit.fontawesome.com/a03d9c12dd.js" crossorigin="anonymous" ></script><!-- Se importan Iconos de Font Awesome -->
     <title>Servicios freelance</title>
   </head>
@@ -28,7 +27,6 @@
           <div class="row ">
             <!--Col 1-->
             <div class="col-12 col-sm-8 py-4 text-left">
-              <img src="img/Perfil.jpg" class="img-fluid rounded-circle mx-auto d-block mb-4" width="25%" alt="Foto de perfil Carlos Silva">
               <h2 class="h2">Acerca de mi:</h2>
               <p>                  
                  Mi nombre completo es Carlos Andrés Silva Jorquera. Tengo 44 años. 
@@ -90,27 +88,25 @@
 
     <main>
         <!--Jumbotron-->
-       <section class="jumbotron bg-gradient-secondary text-center">
+       <section class="jumbotron bg-gradient-secondary text-center mb-0">
             <div class="container">
                 <h1 class="display-4">Servicios informáticos freelance.</h1>
                 <p class="lead text-muted">
                     Te ayudo a desarrollar tu sitio web, también te puedo ayudar con la revisión de notebook o de tu viejo PC, con la gestión de proyectos o tus servicios TI. 
                 </p>
                 <p>                    
-                    <a href="#servicios" class="btn btn-info w-50 my-1">Servicios</a>
-                    <a href="#contacto" class="btn btn-primary w-50 my-1">Contacto</a>                    
+                    <a href="#servicios" class="btn btn-info my-2">Servicios</a>
+                    <a href="#contacto" class="btn btn-primary my-2">Contacto</a>                    
                 </p>
             </div>
        </section><!--Fin Jumbotron-->
- 
-       <!--Servicios-->
+
        <div class="container">
-         
         <!--Row 1 Menu Servicios-->
-        <div class="row justify-content-center py-2">
+        <div class="row justify-content-center py-3" id="servicios">
              <div class="col-sm-12 col-md-8 col-lg-6">
-                 <h2 class="h2 text-center py-2" id="servicios">Servicios</h2>
-                 <div class="list-group py-2">
+                 <h2 class="h2 text-center my-3">Servicios</h2>
+                 <div class="list-group my-2">
                      <a href="#gestionservicios" class="list-group-item list-group-item-action">Gestión de Servicios TI</a>
                      <a href="#soporte" class="list-group-item list-group-item-action">Soporte Computacional</a>
                      <a href="#proyectos" class="list-group-item list-group-item-action">Gestión de Proyectos TI</a>
@@ -120,13 +116,12 @@
         </div><!--Fin row 1-->            
 
         <!--Row 2 Detalle Servicios-->
-        <div class="row py-2">
-            
+        <div class="row py-3">
             <!--Col 1-->
-            <div class="col-sm-12 col-md-6 col-lg-3 d-flex">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <!--Card-->
-                <div class="card my-2" id="gestionservicios">
-                     <img src="img/ITIL2.jpg" class="card-img-top">
+                <div class="card mb-4" id="gestionservicios">
+                     <img src="img/ITIL2.jpg" class="card-img-top" alt="">
                      <div class="card-body">
                          <h4 class="h4">Gestión de Servicios TI</h4>
                          <p class="text-justify">
@@ -140,9 +135,9 @@
             </div><!--Fin col 1-->
 
             <!--Col 2-->
-            <div class="col-sm-12 col-md-6 col-lg-3 d-flex">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                  <!--Card-->
-                 <div class="card my-2" id="soporte">
+                 <div class="card mb-4" id="soporte">
                      <img src="img/SoporteTecnico.jpg" class="card-img-top" alt="">
                      <div class="card-body">
                          <h4 class="h4">Soporte Computacional</h4>
@@ -156,9 +151,9 @@
             </div><!--Fin col 2-->
 
             <!--Col 3-->
-            <div class="col-sm-12 col-md-6 col-lg-3 d-flex">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <!--Card-->
-                <div class="card my-2" id="proyectos">
+                <div class="card mb-4" id="proyectos">
                     <img src="img/Proyectos.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <h4 class="h4">Gestión de Proyectos TI</h4>
@@ -171,9 +166,9 @@
             </div><!--Fin col 3-->
             
             <!--Col 4-->
-            <div class="col-sm-12 col-md-6 col-lg-3 d-flex">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <!--Card con una imagen y texto-->
-                <div class="card my-2" id="desarollo">
+                <div class="card mb-4" id="desarollo">
                     <img src="img/DesarrolloWeb.png" class="card-img-top" alt="">
                     <div class="card-body">
                         <h4 class="h4">Desarrollo de Páginas Web</h4>
@@ -184,52 +179,25 @@
                         </p>                                
                     </div>
                 </div><!--Fin card-->
-            </div><!--Fin col 4-->           
+            </div><!--Fin col 4--> 
+        </div><!--Fin row-->
 
-        </div><!--Fin row 2-->        
-
-       </div><!--Fin container-->
-
-       <!--Contacto-->
-       <div class="container" id="contacto">
-         <!--Row 1 Datos Contacto-->
-         <div class="row justify-content-center py-2" >
-          <div class="align-items-center">
-            <h2 class="h2 text-center py-2">Contacto</h2>
-            <ul class="list-group list-group-horizontal py-2">
-                <li class="list-group-item"><i class="fa fa-mobile mr-3"></i>+56 955354704</li>
-                <li class="list-group-item"><i class="fa fa-envelope mr-2"></i><a href="mailto:csilvajo@hotmail.com">csilvajo@hotmail.com</a></li>
-              </ul>                                                  
-          </div>
-          </div><!--Fin row 1--> 
-
-          <!--Row 2 Form Contacto-->
-          <div class="row justify-content-center py-2">
-            <div class="col-sm-12 col-md-8 col-lg-6">
-              <form action="mailto:csilvajo@hotmail.com">
-                <div class="form-group">
-                  <label>Nombre</label>
-                  <input type="email" class="form-control" placeholder="Tu nombre">              
-                </div>
-                <div class="form-group">
-                  <label>Apellidos</label>
-                  <input type="email" class="form-control" placeholder="Tus apellidos">              
-                </div>
-                <div class="form-group">
-                  <label>Mensaje</label>
-                  <textarea class="form-control" type="text" row="4" placeholder="Indícame tu consulta"></textarea>
-                </div>            
-                <button type="submit" class="btn btn-success w-100">Enviar</button>
-              </form>
+        <!--Row 3-->
+        <div class="row justify-content-center py-3" id="contacto">
+            <div class="align-items-center">
+                <h2 class="h2 text-center mb-3">Contacto</h2>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item"><i class="fa fa-mobile mr-3"></i>+56 955354704</li>
+                    <li class="list-group-item"><i class="fa fa-envelope mr-2"></i><a href="mailto:csilvajo@hotmail.com">csilvajo@hotmail.com</a></li>
+                </ul>                                                  
             </div>
-            
-          </div><!--Fin row 2--> 
+        </div><!--Fin row 3-->  
 
        </div><!--Fin container-->
         
     </main>
 
-    <footer class="bg-dark text-muted mt-2 py-2">
+    <footer class="bg-dark text-muted mt-2 py-3">
         <div class="container">
             <p class="float-right">
                 <a href="#inicio" class="text-white">
