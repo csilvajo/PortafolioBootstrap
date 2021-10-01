@@ -1,0 +1,17 @@
+.formatoLink {
+  text-decoration: none; /* Quita la linea debajo del vinculo */
+  color: black;
+}
+
+.aplicaHover:hover {
+  background-color: #87cefa;
+}
+
+.titulo {
+  text-shadow: 10px 10px 20px black;
+}
+
+.formaDeTarjeta {
+    border-radius: 5px;
+    box-shadow: 5px 3px 15px black;
+  }
