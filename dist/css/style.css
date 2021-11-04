@@ -8,10 +8,15 @@
 }
 
 .titulo {
-  text-shadow: 10px 10px 20px black;
+  text-shadow: 15px 5px 20px gray;
 }
 
 .formaDeTarjeta {
-    border-radius: 5px;
-    box-shadow: 5px 3px 15px black;
-  }
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px black;
+}
+
+.contenedor {  
+  display: flex;
+  justify-content: center;
+}
