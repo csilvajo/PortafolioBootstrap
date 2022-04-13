@@ -1,0 +1,148 @@
+/*ESTILOS GLOBALES*/
+:root {
+  --light-blue: #79b8f66c;
+  --dark: #343a40;
+  --info: #17a2b8;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: var(--light-blue) !important;  
+}
+
+.formatoLink:link,
+.formatoLink:visited,
+.formatoLink:active {
+  text-decoration: none;
+  /* Quita la linea debajo del vinculo */
+  color: black;
+}
+
+.aplicaHover:hover {  
+  background-color: var(--info); 
+  font-weight: bolder;
+}
+
+/*ESTILOS DEL NAVBAR*/
+.navbar {
+  font-family: "Oswald";
+}
+
+.navbar-brand {
+  /*se aplican estilos de tipografia al logo*/
+  font-size: 30px !important;
+  font-weight: 700;
+}
+
+/*ESTILOS DE LA SECCION QUIEN-SOY*/
+#quien-soy {
+  background-image: url("../img/Perfil_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 100vh;
+  position: relative;
+}
+
+#quien-soy div {
+  /*se posiciona verticalmente el texto*/
+  position: absolute;
+  bottom: 45px;
+  /*se centra horizontalmente el texto de hero*/
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.quien-soy-line {
+  /*achicamos la linea*/
+  width: 345px;
+  padding: 1.5px; 
+}
+
+#quien-soy h1 {
+  /*se aplican estilos de tipografia al H1*/
+  font-family: "Oswald";
+  font-size: 72px;
+  font-weight: 200;
+}
+
+#quien-soy h2 {
+  /*se aplican estilos de tipografia al segundo titulo*/
+  font-weight: 900;
+}
+
+#detalle-quien-soy {
+  padding-top: 80px !important;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 2;
+}
+
+/*ESTILOS DE LA SECCION CONOCIMIENTOS*/
+#conocimientos {
+  padding-top: 80px !important;  
+}
+
+#nivel-conocimientos {  
+  padding-bottom: 50px;
+}
+
+.card {
+  font-family: "Open Sans" !important;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px black;
+}
+
+.card .card-body p {
+  font-size: 14px;
+}
+
+/*ESTILOS DE LA SECCION EXPERIENCIA*/
+#experiencia {
+  padding-top: 80px !important;
+  padding-bottom: 50px;
+}
+
+.modal-body {
+  text-align: left;
+  font-size: 14px;
+}
+
+.listasModal {
+  list-style: none;
+}
+
+/*ESTILOS DE LA SECCION PORTAFOLIO*/
+#portafolio {
+  padding-top: 80px !important;
+  padding-bottom: 50px;
+}
+
+/*ESTILOS DE LA SECCION FOOTER */
+footer li {
+  list-style:none;
+}
+
+footer .titulo-pie {
+  /*se aplican estilos de tipografia al logo*/
+  font-family: "Oswald";
+  font-size: 30px !important;
+  font-weight: 700;
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    /*se aplican estilos de tipografia al logo*/
+    font-size: 20px !important;
+  }
+
+  #quien-soy {    
+    background-position: center;    
+  }
+  
+  footer .titulo-pie {
+    /*se aplican estilos de tipografia al logo*/
+    font-size: 20px !important;
+  }
+}
