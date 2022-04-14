@@ -6,4 +6,4 @@ Página web tipo LandingPage, con diseño responsivo.
 
 ## Tecnologías
 
-HTML5, CSS3, Bootstrap4
+HTML5, CSS3, Bootstrap5, JQuery
